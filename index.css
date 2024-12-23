@@ -2,6 +2,256 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+:root {
+    /* Primary Colors */
+    --v2_black: #000000;
+    --v2_grey-dark: #79838E;
+    --v2_grey: #C0CFE6;
+    --v2_grey-light: #EDF4FC;
+    --v2_white: #FFFFFF;
+    --v2_magenta: #FF006E;
+    --v2_blue: #398AFF;
+    --v2_orange: #FF8661;
+    --v2_purple: #935CEA;
+    --v2_blue-light: #935CEA;
+    --v2_whatsapp: #25D366;
+
+    /* Gradients */
+    --v2_degrade-pink: linear-gradient(135deg,
+            #FF006E 12.46%,
+            #FB0171 27.48%,
+            #EE057B 43.24%,
+            #DA0B8A 59.76%,
+            #BD14A0 75.53%,
+            #A21CB5 87.54%);
+
+    --v2_degrade-blue: linear-gradient(97deg,
+            #07EDE6 5.51%,
+            #398AFF 94.49%);
+}
+
+
+/* Color en Clases */
+.v2_color_magenta {
+    color: var(--v2_magenta);
+}
+
+.v2_color_blue {
+    color: var(--v2_blue);
+}
+
+.v2_color_orange {
+    color: var(--v2_orange);
+}
+
+.v2_color_purple {
+    color: var(--v2_purple);
+}
+
+.v2_color_black {
+    color: var(--v2_black);
+}
+
+.v2_color_grey-dark {
+    color: var(--v2_grey-dark);
+}
+
+.v2_color_grey {
+    color: var(--v2_grey);
+}
+
+.v2_color_grey-light {
+    color: var(--v2_grey-light);
+}
+
+.v2_color_white {
+    color: var(--v2_white);
+}
+
+/* Gradient Text Classes */
+.v2_text_degrade-pink {
+    background: var(--v2_degrade-pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.v2_text_degrade-blue {
+    background: var(--v2_degrade-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Tipografías bold */
+.v2_text_48_bold {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.v2_text_36_bold {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.v2_text_28_bold {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.v2_text_20_bold {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.v2_text_18_bold {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.v2_text_14_bold {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* Tipografias regular */
+.v2_text_48_regular {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.v2_text_36_regular {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.v2_text_28_regular {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.v2_text_20_regular {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.v2_text_18_regular {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.v2_text_14_regular {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.v2_button_magenta_white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding:6px 12px;
+    border-radius: 25px;
+    background-color: var(--v2_magenta);
+    border: 0px;
+    color: var(--v2_white);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+
+.v2_button_magenta_white:hover{
+    background-color: var(--v2_white);
+    color: var(--v2_magenta);
+}
+
+
+.v2_button_white_magenta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding:6px 12px;
+    border-radius: 25px;
+    background-color: var(--v2_white);
+    border: 0px;
+    color: var(--v2_magenta);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.v2_button_white_magenta:hover{
+    background-color: var(--v2_magenta);
+    color: var(--v2_white);
+}
+
+.v2_button_blueDedrade_white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding:6px 12px;
+    border-radius: 25px;
+    background: var(--v2_degrade-blue);
+    border: 0px;
+    color: var(--v2_white);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.v2_button_blueDedrade_white:hover{
+    background: var(--v2_grey-light);
+    color: var(--v2_blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------------------- tipos ------------------------------------------- */
 .texto_17_400 {
     font-feature-settings: 'liga' off;
