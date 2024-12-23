@@ -1,0 +1,130 @@
+.page-node-2001 #idCintaBanner {
+    display: flex;
+    height: 90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-image: url(/themes/iplan_b4/NEW/img/internet_protect_banner_mobile.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+.container__bloque {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__bloque {
+    gap: 16px;
+}
+
+.container__bloque__izquierda {
+    width: 100%;
+}
+
+.container__bloque__derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    gap: 16px;
+}
+
+/* bloque 2 */
+.container__bloque-2 {
+    padding: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+}
+
+.container__bloque-2__tri {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.container__bloque-2__tri__box {
+    max-width: 404px;
+    max-height: 296px;
+    display: flex;
+    padding: 36px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container__bloque-2__tri__box img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+@media (min-width: 480px) {
+    .page-node-2001 #idCintaBanner {
+        background-size: cover;
+        background-image: url(/themes/iplan_b4/NEW/img/internet_protect_banner_desktop.png);
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {
+    .container__bloque {
+        flex-direction: row;
+        padding: 0 16px;
+    }
+
+    .container__bloque__izquierda {
+        flex-basis: 50%;
+    }
+
+    .container__bloque__derecha {
+        flex-basis: 50%;
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    /* bloque 2 */
+    .container__bloque-2 {
+        padding: 32px 16px 0 16px;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container__bloque-2__tri {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 791px) {}
+
+@media (min-width: 900px) {
+
+    .container__bloque {
+        gap: 36px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1440px) {}
