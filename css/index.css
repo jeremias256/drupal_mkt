@@ -33,6 +33,18 @@
             #398AFF 94.49%);
 }
 
+/* background color */
+.v2_background_white {
+    background-color: var(--v2_grey-light);
+}
+
+.v2_background_grey_light {
+    background-color: var(--v2_grey-light);
+}
+
+.v2_background_blue {
+    background-color: var(--v2_blue);
+}
 
 /* Color en Clases */
 .v2_color_magenta {
@@ -88,13 +100,13 @@
 
 /* Tipografías bold */
 .v2_text_48_bold {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 48px;
     font-weight: 700;
 }
 
 .v2_text_36_bold {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 36px;
     font-weight: 700;
 }
@@ -125,25 +137,25 @@
 
 /* Tipografias regular */
 .v2_text_48_regular {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 48px;
     font-weight: 400;
 }
 
 .v2_text_36_regular {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 36px;
     font-weight: 400;
 }
 
 .v2_text_28_regular {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 28px;
     font-weight: 400;
 }
 
 .v2_text_20_regular {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 20px;
     font-weight: 400;
 }
@@ -206,7 +218,6 @@
 }
 
 
-
 .v2_button_white_magenta:hover {
     background-color: var(--v2_magenta);
     color: var(--v2_white);
@@ -217,7 +228,7 @@
     align-items: center;
     justify-content: center;
     gap: 6px;
-    padding: 6px 12px;
+    padding: 6px 24px;
     border-radius: 25px;
     background: var(--v2_degrade-blue);
     border: 0px;
@@ -262,3 +273,19 @@
 @media (min-width: 1200px) {}
 
 @media (min-width: 1440px) {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
