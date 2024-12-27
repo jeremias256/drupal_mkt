@@ -155,5 +155,13 @@ a {
 a:hover {
     outline: none;
     text-decoration: underline;
-    color: var(--v2_white);
+    color: inherit !important;
+}
+
+#block-footerv2 {
+    margin-top: -5px;
+}
+
+#block-footerv2 h2 {
+    display: none;
 }
