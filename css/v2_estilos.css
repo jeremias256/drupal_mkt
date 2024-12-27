@@ -46,6 +46,10 @@
     background-color: var(--v2_blue);
 }
 
+.v2_background_grey-dark {
+    background-color: var(--v2_grey-dark);
+}
+
 /* Color en Clases */
 .v2_color_magenta {
     color: var(--v2_magenta);
@@ -130,7 +134,7 @@
 }
 
 .v2_text_14_bold {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 14px;
     font-weight: 700;
 }
@@ -166,9 +170,21 @@
     font-weight: 400;
 }
 
+.v2_text_16_regular {
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .v2_text_14_regular {
-    font-family: Inter;
+    /* font-family: Inter; */
     font-size: 14px;
+    font-weight: 400;
+}
+
+.v2_text_12_regular {
+    /* font-family: Inter; */
+    font-size: 12px;
     font-weight: 400;
 }
 
