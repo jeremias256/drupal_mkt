@@ -86,41 +86,68 @@
     background-clip: text;
 }
 
+
+.v2_background_grey-light {
+    background-color: var(--v2_grey-light);
+}
+
 /* Tipografías bold */
 .v2_text_48_bold {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+    margin: 0px;
 }
 
 .v2_text_36_bold {
     font-family: Inter;
     font-size: 36px;
     font-weight: 700;
+    margin: 0px;
 }
 
 .v2_text_28_bold {
     font-family: Inter;
     font-size: 28px;
     font-weight: 700;
+    margin: 0px;
+}
+
+
+.v2_text_24_bold {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px;
 }
 
 .v2_text_20_bold {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+    margin: 0px;
 }
 
 .v2_text_18_bold {
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
+    margin: 0px;
+}
+
+
+.v2_text_16_bold {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px;
 }
 
 .v2_text_14_bold {
     font-family: Inter;
     font-size: 14px;
     font-weight: 700;
+    margin: 0px;
 }
 
 /* Tipografias regular */
@@ -128,36 +155,58 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 400;
+    margin: 0px;
 }
 
 .v2_text_36_regular {
     font-family: Inter;
     font-size: 36px;
     font-weight: 400;
+    margin: 0px;
 }
 
 .v2_text_28_regular {
     font-family: Inter;
     font-size: 28px;
     font-weight: 400;
+    margin: 0px;
+}
+
+
+.v2_text_24_regular {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0px;
 }
 
 .v2_text_20_regular {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin: 0px;
 }
 
 .v2_text_18_regular {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+    margin: 0px;
+}
+
+
+.v2_text_16_regular {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
 }
 
 .v2_text_14_regular {
     font-family: Inter;
     font-size: 14px;
     font-weight: 400;
+    margin: 0px;
 }
 
 
@@ -234,6 +283,25 @@
     background: var(--v2_grey-light);
     color: var(--v2_blue);
 }
+
+
+.separadorH-white {
+    width: 100%;
+    height: 1px;
+    background-color: var(--v2_white);
+    max-width: 1400px;
+    margin: 32px 0;
+}
+
+.separadorH-grey {
+    width: 100%;
+    height: 1px;
+    background-color: var(--v2_grey-dark);
+   /* max-width: 1400px;*/
+   /* margin: 32px 0;*/
+}
+
+
 
 @media (min-width: 576px) {}
 
