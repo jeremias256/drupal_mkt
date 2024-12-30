@@ -1,0 +1,113 @@
+.container {
+    /* max-width: 1512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: -webkit-fill-available;
+    padding: 0;
+}
+
+
+
+.row>* {
+    padding: 0;
+    margin: 0;
+}
+
+.v2__banner {
+    display: flex;
+    width: 100%;
+    /* max-width: 1512px; */
+    height: 100px;
+    background: linear-gradient(to right, #07ede6, #398aff);
+    align-items: center;
+    justify-content: center;
+}
+
+.v2_banner_image {
+    width: 62px;
+    height: 62px;
+    margin: 0 24px;
+}
+
+.home__texto {
+    max-width: 1080px;
+    text-align: center;
+}
+
+.home__card {
+    max-width: 438px;
+    width: 100%;
+    min-height: 348px;
+    height: 100%;
+    display: flex;
+    padding: 60px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    justify-content: space-between;
+}
+
+.home__azul {
+    padding: 60px 220px;
+    margin: 0 auto;
+}
+
+.home__azul__texto {
+    max-width: 762px;
+    text-align: center;
+}
+
+.home__card__logo {
+    max-width: 420px;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.iplan__marca {
+    width: 175px;
+}
+
+/* bootstrap */
+@media (min-width: 576px) {}
+
+/* bootstrap */
+@media (min-width: 768px) {}
+
+@media (min-width: 791px) {}
+
+@media (min-width: 900px) {}
+
+/* bootstrap */
+@media (min-width: 992px) {}
+
+/* bootstrap */
+@media (min-width: 1200px) {
+    .home__azul {
+        padding: 60px 220px;
+    }
+
+    .home__card__logo {
+        flex-direction: row;
+    }
+}
+
+/* bootstrap */
+@media (min-width: 1400px) {}
+
+@media (min-width: 1440px) {}
