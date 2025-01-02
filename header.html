@@ -4,56 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/v2_header.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="themes/iplan_b4/css/v2_estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>Document</title>
 </head>
 <body>
 
     <header class="v2__header v2_background_grey-light">
-
-      <nav class="v2_nav_top">
-
-        <div class="v2_nav_top_left">
-            <div class="v2_nav_top_left_logo">
-                <img alt="v2_logo_gris" src="themes/iplan_b4/NEW/img/v2_LogoIplan.png">
+        <!-- Nav Superior -->
+        <nav class="v2_nav_top">
+            <div class="v2_nav_top_left">
+                <div class="v2_nav_top_left_logo">
+                    <img alt="v2_logo_gris" src="themes/iplan_b4/NEW/img/v2_LogoIplan.png">
+                </div>
+                <div class="v2_nav_top_left_opciones">
+                    <p class="v2_text_24_regular v2_color_grey-dark">HOGAR</p>
+                    <p class="v2_text_24_regular v2_color_grey-dark">EMPRESA</p>
+                </div>
             </div>
-            <div class="v2_nav_top_left_opciones">
-                <p class="v2_text_24_regular v2_color_grey-dark" > HOGAR </p>
-                <p class="v2_text_24_regular v2_color_grey-dark" > EMPRESA </p>
+            <!-- Opciones desktop -->
+            <div class="v2_nav_top_right d-none d-lg-flex">
+                <div class="v2_nav_top_right_opciones">
+                    <p class="v2_text_24_regular v2_color_grey-dark">zona de clientes</p>
+                    <p class="v2_text_24_regular v2_color_grey-dark">ventas</p>
+                </div>
+                <div class="v2_nav_top_right_logo">
+                    <img alt="v2_logo_gris" src="themes/iplan_b4/NEW/img/v2_btnWhatsapp.png">
+                </div>
             </div>
-           
-           
-        </div>
-        <div class="v2_nav_top_right">
-            <div class="v2_nav_top_right_opciones">
-                <p class="v2_text_24_regular v2_color_grey-dark"> zona de clientes </p>
-                <p class="v2_text_24_regular v2_color_grey-dark"> ventas </p>
-            </div>
-
-            <div class="v2_nav_top_right_logo">
-                <img alt="v2_logo_gris" src="themes/iplan_b4/NEW/img/v2_btnWhatsapp.png">
-            </div>
-
-        </div>
-       
-
-
-      </nav>
-
-      <div class="separadorH-grey"></div>
-
-      <nav class="v2_nav_bottom">
-
-        <p class="v2_text_16_regular v2_color_grey-dark"> HOME </p>
-        <p class="v2_text_16_regular v2_color_grey-dark"> INTERNET </p>
-        <p class="v2_text_16_regular v2_color_grey-dark"> COLABORACIÓN </p>
-        <p class="v2_text_16_regular v2_color_grey-dark"> Iaas </p>
-        <p class="v2_text_16_regular v2_color_grey-dark"> DATACENTER Y TLS </p>
-        <p class="v2_text_16_regular v2_color_grey-dark"> TELEFONÍA</p>
-        <p class="v2_text_16_regular v2_color_grey-dark"> IPLAN TALKS </p>
-
-      </nav>
-    </header>
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
     
+        <div class="separadorH-grey"></div>
+    
+        <!-- Menú desktop -->
+        <nav class="v2_nav_bottom d-none d-lg-flex">
+            <p class="v2_text_16_regular v2_color_grey-dark">HOME</p>
+            <p class="v2_text_16_regular v2_color_grey-dark">INTERNET</p>
+            <p class="v2_text_16_regular v2_color_grey-dark">COLABORACIÓN</p>
+            <p class="v2_text_16_regular v2_color_grey-dark">Iaas</p>
+            <p class="v2_text_16_regular v2_color_grey-dark">DATACENTER Y TLS</p>
+            <p class="v2_text_16_regular v2_color_grey-dark">TELEFONÍA</p>
+            <p class="v2_text_16_regular v2_color_grey-dark">IPLAN TALKS</p>
+        </nav>
+    
+        <!-- Menú móvil colapsable -->
+        <nav class="collapse navbar-collapse d-lg-none" id="navbarMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">HOME</p></li>
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">INTERNET</p></li>
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">COLABORACIÓN</p></li>
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">Iaas</p></li>
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">DATACENTER Y TLS</p></li>
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">TELEFONÍA</p></li>
+                <li class="nav-item"><p class="v2_text_16_regular v2_color_grey-dark">IPLAN TALKS</p></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>

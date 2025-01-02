@@ -1,12 +1,83 @@
 .v2__header {
     display: flex;
     flex-direction: column;
-    /*padding: 42px 75px 32px 75px;*/
     align-items: center;
 }
 
 .v2_nav_header {
-   display: none;
+    display: none;
+}
+
+
+/* Estilos para móvil */
+.navbar-toggler {
+    border: none;
+    padding: 0.25rem 0;
+}
+
+#navbarMenu {
+    width: 100%;
+}
+
+#navbarMenu .navbar-nav {
+    padding: 1rem 0;
+}
+
+#navbarMenu .nav-item {
+    padding: 0.5rem 1rem;
+}
+
+/* Estilos base (móvil primero) */
+.v2_nav_top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 20px; 
+}
+
+.v2_nav_top_left {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajustar tamaño del logo para móvil si es necesario */
+.v2_nav_top_left_logo img {
+    max-width: 120px; 
+}
+
+/* Ocultar las opciones de HOGAR y EMPRESA en móvil */
+.v2_nav_top_left_opciones {
+    display: none;
+}
+
+/* Estilos para el botón hamburguesa */
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%2379838E' stroke-linecap='round' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    width: 40px !important;
+    height: 24px !important;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    border: 1px solid rgba(0,0,0,.1);
 }
 
 @media (min-width: 992px) {
@@ -54,9 +125,18 @@
     .v2_nav_bottom {
         display: flex;
         width: 100%;
-        justify-content: space-between;
-        gap: 16px;
+        gap: 34px;
         padding: 28px 75px;
+    }
+
+     /* Ocultar menú hamburguesa en desktop */
+     .navbar-toggler {
+        display: none;
+    }
+
+    /* Mostrar menú horizontal en desktop */
+    #navbarMenu {
+        display: none !important;
     }
     
 }

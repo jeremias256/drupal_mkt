@@ -311,7 +311,6 @@
     color: var(--v2_blue);
 }
 
-<<<<<<< HEAD:index.css
 
 .separadorH-white {
     width: 100%;
@@ -331,7 +330,6 @@
 
 
 
-=======
 .mobile {
     display: flex;
 }
@@ -340,7 +338,6 @@
     display: none;
 }
 
->>>>>>> bc3b67e3cbe518e961858f89a9d6da1a786e715e:themes/iplan_b4/css/v2_estilos.css
 @media (min-width: 576px) {}
 
 @media (min-width: 791px) {}
