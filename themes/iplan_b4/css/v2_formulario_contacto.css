@@ -1,0 +1,97 @@
+.contacto {
+    display: flex;
+    width: 100%;
+    /* width: 1512px; */
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+}
+
+.contacto__formulario {
+    max-width: 1280px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+}
+
+.contacto__informacion {
+    max-width: 1280px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    gap: 16px;
+}
+
+.contacto__informacion h2 {
+    width: 250px;
+}
+
+.contacto__informacion__btn {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 25px;
+    background-color: var(--v2_white);
+}
+
+/* bootstrap */
+@media (min-width: 576px) {}
+
+/* bootstrap */
+@media (min-width: 768px) {}
+
+@media (min-width: 791px) {}
+
+@media (min-width: 900px) {}
+
+/* bootstrap */
+@media (min-width: 992px) {
+    .contacto {
+        padding: 30px 32px 16px 32px;
+        gap: 24px;
+    }
+}
+
+/* bootstrap */
+@media (min-width: 1200px) {}
+
+/* bootstrap */
+@media (min-width: 1400px) {
+    .contacto {
+        padding: 60px 75px 40px 75px;
+        gap: 48px;
+    }
+}
+
+@media (min-width: 1440px) {}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}

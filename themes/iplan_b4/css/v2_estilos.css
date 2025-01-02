@@ -50,6 +50,14 @@
     background-color: var(--v2_grey-dark);
 }
 
+.v2_background_grey {
+    background-color: var(--v2_grey);
+}
+
+.v2_background_degrade-blue {
+    background: var(--v2_degrade-blue);
+}
+
 /* Color en Clases */
 .v2_color_magenta {
     color: var(--v2_magenta);
@@ -324,8 +332,8 @@
     width: 100%;
     height: 1px;
     background-color: var(--v2_grey-dark);
-   /* max-width: 1400px;*/
-   /* margin: 32px 0;*/
+    /* max-width: 1400px;*/
+    /* margin: 32px 0;*/
 }
 
 
